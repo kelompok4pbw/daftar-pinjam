@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Daftar Peminjam</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar-fixed">  
+            <nav class="indigo darken-4">
+                <div class="nav-wrapper container">
+                    <a href="praktikum04A.html" class="brand-logo">
+                        <div class="logo-container">
+                            <img class="logo" src="img/12.png" alt="Perpustakaan" style="height: 50px;">
+                            <span class="logo" id="logo-text">PBWOW Store</span>
+                        </div>
+                    </a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="3AAGabungan.html"><i class="material-icons left">home</i>Home</a></li>
+                        <li><a href="3DaftarKomik.html"><i class="material-icons left">book</i>Daftar Komik</a></li>
+                        <li><a href="3DaftarPeminjam.html"><i class="material-icons left">person</i>Daftar Peminjam</a></li>
+                        <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Tambah<i
+                                    class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="3AddDaftarKomik.html">Tambah Komik</a></li>
+                        <li><a href="3AddDaftarPeminjam.html">Tambah Peminjam</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- sidenav -->
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="3AAGabungan.html"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="3DaftarKomik.html"><i class="material-icons left">book</i>Daftar Komik</a></li>
+            <li><a href="3DaftarPeminjam.html"><i class="material-icons left">person</i>Daftar Peminjam</a></li>
+            <li><a href="3AddDaftarKomik.html"><i class="material-icons left">add</i>Tambah Komik</a></li>
+            <li><a href="3AddDaftarPeminjam.html"><i class="material-icons left">add</i>Tambah Peminjam</a></li>
+        </ul>
+    </header>
+    <table class="centered responsive-table">
+        <thead class="#e91e63 pink centered">
+        <tr class="baris-awal">
+            <th>No</th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>Status Peminjaman</th>
+        </tr>
+        </thead>
+        <tbody class="#f48fb1 pink lighten-3">
+        <tr>
+            <td>1</td>
+            <td>Michael North</td>
+            <td>m.north@foe.stis.ac.id</td>
+            <td class="checkbox-container"><input type="checkbox" id="check1" name="check1"><label for="check1"></label></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jody Land</td>
+            <td>j.land@foe.stis.ac.id</td>
+            <td class="checkbox-container"><input type="checkbox" id="check2" name="check2"><label for="check2"></label></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Trish Shelby</td>
+            <td>t.shelby@foe.stis.ac.id</td>
+            <td class="checkbox-container"><input type="checkbox" id="check3" name="check3"><label for="check3"></label></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Wayne Ungood</td>
+            <td>w.ungood@foe.stis.ac.id</td>
+            <td class="checkbox-container"><input type="checkbox" id="check4" name="check4"><label for="check4"></label></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ashley Twerk</td>
+            <td>t.ashley@foe.stis.ac.id</td>
+            <td class="checkbox-container"><input type="checkbox" id="check5" name="check5"><label for="check5"></label></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Fren Turba</td>
+            <td>f.turba@foe.stis.ac.id</td>
+            <td class="checkbox-container"><input type="checkbox" id="check6" name="check6"><label for="check6"></label></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Malik Zidane</td>
+            <td>z.malik@foe.stis.ac.id</td>
+            <td class="checkbox-container"><input type="checkbox" id="check7" name="check7"><label for="check7"></label></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Materialize Group</h5>
+                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius tincidunt nunc, nec tincidunt nulla aliquam eu. Sed fermentum ultrices ligula, sit amet tempor sapien fermentum et.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="black white-text">Hubungi kami</h5>
+                    <ul class="left-align">
+                      <li><a class="grey-text text-lighten-3" href="mailto:shafnanda18@gmail.com"><i class="material-icons left">email</i>kel4materialize@gmail.com</a></li>
+                      <li><a class="grey-text text-lighten-3" href="https://wa.me/6285812723448"><i class="material-icons left">chat</i>085812723448</a></li>
+                      <li><a class="grey-text text-lighten-3" href="https://www.stis.ac.id/"><i class="material-icons left">home</i>Jalan Otto Iskandardinata No.64 C</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 Materialize Group. All rights reserved.
+                <!-- <a class="grey-text text-lighten-4 right" href="#">More Links</a> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
